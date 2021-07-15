@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
 .achieve{
-        margin-bottom: 35px;
+        margin-bottom: 15px;
 }
 .part-heading{
     font-weight: bold;
@@ -28,7 +28,7 @@
     font-weight: 600;
 }
 
-.part h3{
+.part h4{
     color: #19878B;
     text-decoration: underline;
     text-decoration-color: #19878B;
@@ -39,9 +39,10 @@
     background-color:#8E919D; 
     color:white; 
     border-radius:5px;
-    margin: 5px 2px !important;
+    margin: 3px 2px !important;
+    font-size: 0.8em;
 }
-.skills h3{
+.skills h4{
     margin-bottom: 20px;
 }
 .skills{
@@ -51,57 +52,75 @@
     font-style: italic;
 }
 h1{
-    font-size: 3.5rem;
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 1.5em;
+}
+p{
+    font-size: 1.0em;
 }
 
+p{
+    font-size: 0.8em;
+}
+.export{
+position:fixed;
+top: 10px;
+right: 20px;
+}
+.justified{
+    text-align: justify;
+}
 </style>
 </head>
 <body>
-    <div class="container">
-        <div class="row" style="background-color:#293447; color: #fff; padding: 20px;">
+    <button class="btn btn-outline-info export" id="export">Export</button>
+    <div class="container-fluid" id="resume">
+        <div class="row" style="background-color:#293447; color: #fff; padding: 5px 20px;">
           <div class="col">
             <h1>Soumalya Chowdhury</h1>
-            <h2 style="color:#19878B; font-weight: 600;">Cyber Security Enthusiast</h2>
+            <h3 style="color:#19878B; font-weight: 600;">Cyber Security Enthusiast</h3>
           </div>
         </div>
-        <div class="row" style="background-color:#1E252E; color: #fff; padding:10px 20px;">
+        <div class="row" style="background-color:#1E252E; color: #fff; padding:5px 20px;">
             <div class="col">
                 <div class="row">
                     <div class="col">
-                    <h5><i class="fas fa-map-marker-alt"></i> Keshiary,Paschim Medinipur-721133</h5>
+                    <p><i class="fas fa-map-marker-alt"></i> Keshiary,Paschim Medinipur-721133</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
-                    <h5><i class="far fa-envelope"></i> soumalyachowdhury.cse.jisu@gmail.com</h5>
+                    <p><i class="far fa-envelope"></i> soumalyachowdhury.cse.jisu@gmail.com</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
-                        <h5><i class="fa fa-phone" aria-hidden="true"></i> +91 7872632541</h5>
+                        <p><i class="fa fa-phone" aria-hidden="true"></i> +91 7872632541</p>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="row">
                     <div class="col">
-                        <h5><i class="fab fa-github"></i> sajalsoumalya</h5>
+                        <p><i class="fab fa-github"></i> sajalsoumalya</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
-                        <h5><i class="fab fa-linkedin"></i> sajalsoumalya</h5>
+                        <p><i class="fab fa-linkedin"></i> sajalsoumalya</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row" style="padding:20px;">
+        <div class="row" style="padding:10px;">
             <div class="col">
                 <div class="row">
                     <div class="col part">
-                        <h3>EDUCATION</h3>
-                        <h5 class="part-heading">B.Tech|Computer Science And Engineering</h5>
-                        <h5>JIS University, Kolkata</h5>
+                        <h4>EDUCATION</h4>
+                        <p class="part-heading">B.Tech|Computer Science And Engineering</p>
+                        <p>JIS University, Kolkata</p>
                         <div class="row">
                             <div class="col grade-left">
                                 <p>2018 - Present</p>
@@ -110,8 +129,8 @@ h1{
                                 <p>8.35 CGPA</p>
                             </div>
                         </div>
-                        <h5 class="part-heading">Higher Secondary (Xii) | WBCHSE | PCM</h5>
-                        <h5>Keshiary High School, Keshairy</h5>
+                        <p class="part-heading">Higher Secondary (Xii) | WBCHSE | PCM</p>
+                        <p>Keshiary High School, Keshairy</p>
                         <div class="row">
                             <div class="col grade-left">
                                 <p>2017</p>
@@ -120,8 +139,8 @@ h1{
                                 <p>61%</p>
                             </div>
                         </div>
-                        <h5 class="part-heading">Secondary (X) | WBBSE </h5>
-                        <h5>Keshiary High School, Keshairy</h5>
+                        <p class="part-heading">Secondary (X) | WBBSE </p>
+                        <p>Keshiary High School, Keshairy</p>
                         <div class="row">
                             <div class="col grade-left">
                                 <p>2015</p>
@@ -134,14 +153,14 @@ h1{
                 </div>
                 <div class="row">
                     <div class="col part">
-                        <h3>PROJECTS</h3>
+                        <h4>PROJECTS</h4>
                         <div class="achieve">
-                            <h5 class="part-heading" >Brown Books | Find Your Own Books</h5>
-                            <p class="italic">Brown books is A online organization for Buying and Selling Educational instuments and also working as an NON Profit Organization for Betterment of Education this website is Developed using HTML,CSS,JAVASCRIPT <a href="https://brownbooks.store">https://brownbooks.store</a></p>
+                            <p class="part-heading" >Brown Books | Find Your Own Books</p>
+                            <p class="italic justified">Brown books is A online organization for Buying and Selling Educational instuments and also working as an NON Profit Organization for Betterment of Education this website is Developed using HTML,CSS,JAVASCRIPT <a href="https://brownbooks.store">https://brownbooks.store</a></p>
                         </div>
                         <div class="achieve">
-                            <h5 class="part-heading">Interactive Wheel of Life: A Self-Monitoring Tool</h5>
-                            <p class="italic">Interactive Wheel of Life is A Self-Monitoring Tool that allow you to moitor your life balance and help you to balance every aspect of your life. it's an Reaserch Based Project. GUI is Developed using HTML and CSS and Backend using JavaScript <a href="https://workbalancedlife.livinloves.me">https://workbalancedlife.livinloves.me</a></p>
+                            <p class="part-heading">Interactive Wheel of Life: A Self-Monitoring Tool</p>
+                            <p class="italic justified">Interactive Wheel of Life is A Self-Monitoring Tool that allow you to moitor your life balance and help you to balance every aspect of your life. it's an Reaserch Based Project. GUI is Developed using HTML and CSS and Backend using JavaScript <a href="https://workbalancedlife.livinloves.me">https://workbalancedlife.livinloves.me</a></p>
                         </div>
                     </div>
                 </div>
@@ -149,7 +168,7 @@ h1{
             <div class="col ">
                 <div class="row">
                     <div class="col skills part">
-                        <h3>SKILLS</h3>
+                        <h4>SKILLS</h4>
                         <span class="w3-tag">Python</span>
                         <span class="w3-tag">C Programming</span>
                         <span class="w3-tag">Java</span>
@@ -168,17 +187,17 @@ h1{
                 </div>
                 <div class="row" style="">
                     <div class="col part">
-                        <h3>ACHIEVEMENTS</h3>
+                        <h4>ACHIEVEMENTS</h4>
                         <div class="achieve">
-                            <h5 class="part-heading">Published Journal on IJIMAI.</h5>
-                            <p class="italic">A Journal on <strong>Balance Your Work-Life: Personal Interactive Web-Interface</strong> has been published on <strong>International Journal of Interactive Multimedia and Artificial Intelligence – IJIMAI</strong> </p>
+                            <p class="part-heading">Published Journal on IJIMAI.</p>
+                            <p class="italic justified">A Journal on <strong>Balance Your Work-Life: Personal Interactive Web-Interface</strong> has been published on <strong>International Journal of Interactive Multimedia and Artificial Intelligence – IJIMAI</strong> </p>
                         </div>
                         
                     </div>
                 </div>
                 <div class="row">
                     <div class="col skills part">
-                        <h3>LANGUAGES</h3>
+                        <h4>LANGUAGES</h4>
                         <span class="w3-tag">Bengali</span>
                         <span class="w3-tag">Hindi</span>
                         <span class="w3-tag">English</span>                       
@@ -187,13 +206,13 @@ h1{
             </div>
         </div>
         <div class="row">
-            <div class="col-12" style="margin: 0px 20px;">
-                <h5>I hearby decleare that all the information furnished above are true to the best of my knowledge and it would be a great chance to show my strength’s capability and responsibility towards the job.</h5>
+            <div class="col-12" style="margin: 0px 10px;">
+                <p>I hearby decleare that all the information furnished above are true to the best of my knowledge and it would be a great chance to show my strength’s capability and responsibility towards the job.</p>
             </div>
         </div>
         <div class="row">
             <div class="col" >
-                <h5 style="text-align: right; margin-right: 20px;">SOUMALYA CHOWDHURY</h5>
+                <p style="text-align: right; margin-right: 20px; font-style: italic;">Soumalya Chowdhury</p>
             </div>
         </div>
       </div>
@@ -203,5 +222,7 @@ h1{
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>
+<script src="export.js"></script>
 </body>
 </html>
