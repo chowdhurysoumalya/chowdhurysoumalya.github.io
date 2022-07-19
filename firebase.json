@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": "public",
+    "site": "resume-soumalya",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

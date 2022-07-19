@@ -6,8 +6,8 @@ window.onload = function () {
             console.log(window);
             var opt = {
                
-                filename: 'Resume_Soumalya_Chowdhury.pdf',
-                html2canvas: { scale: 2 },
+                filename: 'Soumalya_Chowdhury.pdf',
+                html2canvas: { scale: 1 },
                 jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
             };
             html2pdf().from(invoice).set(opt).save();
